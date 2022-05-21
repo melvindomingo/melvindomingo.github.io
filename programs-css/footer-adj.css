@@ -1,0 +1,10 @@
+@media (max-width: 1215px) {
+  .footer-container {
+    top: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  .footer-container {
+    top: 0;
+  }
+}

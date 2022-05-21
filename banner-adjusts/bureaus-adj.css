@@ -1,0 +1,29 @@
+/* BANNER ADJUST*/
+@media (max-width: 640px) {
+  .wrapper {
+    top: -170px;
+  }
+}
+
+@media (max-width: 441px) {
+  .arrow-container2 {
+    height: 40px;
+    background-color: #e4e4e4;
+  }
+
+  .arrow3 h5 {
+    margin-top: 20px;
+    left: -210px;
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper {
+    top: 400px;
+  }
+}
+@media (max-width: 343px) {
+  .left-side {
+    margin-top: 105px;
+  }
+}

@@ -1,0 +1,165 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.header-main {
+  background-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #f7f7f7;
+  --secondary-color: #050505;
+  --box-color: #7e1d1d11;
+  --nextlink-color: rgb(126, 15, 15);
+  --hover-color: #e4e4e4;
+}
+
+.dark-theme {
+  --primary-color: #1a1919;
+  --secondary-color: #fdfdfd;
+  --hover-color: rgb(104, 16, 16);
+  --nextlink-color: rgb(255, 193, 23);
+}
+
+#icon {
+  width: 50px;
+  cursor: pointer;
+  margin-top: -57px;
+  position: absolute;
+  margin-left: 79%;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 9px 0px rgb(196, 191, 191);
+}
+
+#icon:hover {
+  opacity: 0.8;
+  transition-duration: 300ms;
+}
+
+.container-banner2 h1 {
+  color: var(--secondary-color);
+}
+.header .logo a {
+  color: var(--secondary-color);
+}
+
+.header .menu > .menu-item > a {
+  color: var(--secondary-color);
+}
+
+.header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
+.header .menu > .menu-item:hover > a {
+  background-color: var(--hover-color);
+}
+
+.header .menu > .menu-item > .sub-menu {
+  background-color: var(--primary-color);
+}
+
+.header .menu > .menu-item > .sub-menu > .menu-item > a {
+  color: var(--secondary-color);
+}
+
+.header .open-nav-menu span {
+  background-color: var(--secondary-color);
+}
+
+header .open-nav-menu span:before,
+.header .open-nav-menu span:after {
+  background-color: var(--secondary-color);
+}
+
+.sub-menu2 {
+  background-color: var(--primary-color);
+}
+
+.sub-menu2 li {
+  color: var(--secondary-color);
+}
+
+.sub-menu2 a {
+  color: var(--secondary-color);
+}
+
+.sub-menu2 a:hover {
+  background-color: var(--hover-color);
+}
+
+.next-link a {
+  background-color: var(--primary-color);
+}
+
+.next-link p {
+  color: var(--nextlink-color);
+}
+
+.next-link a {
+  color: var(--fourth-color);
+}
+
+@media (max-width: 1020px) {
+  .header .nav-menu {
+    position: absolute;
+    right: -280px;
+    visibility: hidden;
+    width: 280px;
+    height: 133%;
+    border-radius: 5px;
+    top: 0;
+    overflow-y: auto;
+    background-color: var(--primary-color);
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.5s ease;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 35px;
+  }
+
+  .header .menu > .menu-item > .sub-menu {
+    margin-left: -1px;
+  }
+
+  .header .menu > .menu-item > a {
+    color: var(--secondary-color);
+    padding: 12px 15px;
+    margin-left: 0px;
+  }
+
+  .header .menu > .menu-item > .sub-menu > .menu-item > a {
+    padding: 15px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+  .header .menu > .menu-item > .sub-menu > .menu-item > a {
+    padding: 15px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+
+  #icon {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+}
+
+.header .open-nav-menu span {
+  background-color: var(--secondary-color);
+}
+.header .open-nav-menu span:before,
+.header .open-nav-menu span:after {
+  background-color: var(--secondary-color);
+}

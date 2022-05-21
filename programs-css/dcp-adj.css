@@ -1,0 +1,35 @@
+@media (max-width: 611px) {
+  .arrow-container2 {
+    top: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .left-side {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrow-container2 {
+    height: 50px;
+  }
+}
+
+@media (max-width: 387px) {
+  .left-side {
+    margin-top: 153px;
+  }
+}
+
+@media (max-width: 327px) {
+  .arrow-container2 {
+    top: 60px;
+  }
+}
+
+@media (max-width: 318px) {
+  .left-side {
+    margin-top: 180px;
+  }
+}

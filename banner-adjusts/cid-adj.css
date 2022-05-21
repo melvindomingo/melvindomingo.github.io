@@ -1,0 +1,105 @@
+@media (max-width: 733px) {
+  .left-side {
+    margin-top: 105px;
+  }
+}
+
+@media (max-width: 684px) {
+  .arrow-container2 {
+    top: 30px;
+  }
+
+  .wrapper {
+    top: -180px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    top: -120px;
+  }
+}
+
+@media (max-width: 623px) {
+  .arrow3 h5 {
+    margin-top: 22px;
+    left: -10px;
+  }
+  .arrow-container2 {
+    height: 45px;
+  }
+}
+
+@media (max-width: 520px) {
+  .arrow3 h5 {
+    margin-top: 22px;
+    left: -50px;
+  }
+  .arrow-container2 {
+    height: 45px;
+  }
+}
+
+@media (max-width: 475px) {
+  .arrow3 h5 {
+    margin-top: 22px;
+    left: -100px;
+  }
+  .arrow-container2 {
+    height: 45px;
+  }
+}
+
+@media (max-width: 467px) {
+  .arrow-container2 {
+    top: 55px;
+  }
+
+  .wrapper {
+    top: -100px;
+  }
+}
+
+@media (max-width: 439px) {
+  .left-side {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 426px) {
+  .arrow3 h5 {
+    margin-top: 22px;
+    left: -140px;
+  }
+}
+
+@media (max-width: 386px) {
+  .arrow3 h5 {
+    margin-top: 22px;
+    left: -180px;
+  }
+}
+
+@media (max-width: 372px) {
+  .arrow {
+    left: -20px;
+  }
+
+  .arrow2 p a {
+    margin-left: -15px;
+  }
+
+  .arrow2 i {
+    left: -10px;
+  }
+
+  .arrow3 h6 a {
+    left: -3px;
+  }
+}
+
+@media (max-width: 370px) {
+  .left-side {
+    margin-top: 155px;
+  }
+}

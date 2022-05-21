@@ -1,0 +1,24 @@
+/* BANNER ADJUST*/
+
+@media (max-width: 640px) {
+  .wrapper {
+    margin-top: 860px;
+  }
+}
+@media (max-width: 604px) {
+  .wrapper {
+    margin-top: 890px;
+  }
+}
+
+@media (max-width: 382px) {
+  .wrapper {
+    margin-top: 930px;
+  }
+}
+
+@media (max-width: 302px) {
+  .wrapper {
+    margin-top: 970px;
+  }
+}

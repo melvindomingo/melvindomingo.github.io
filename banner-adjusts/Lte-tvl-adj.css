@@ -1,0 +1,27 @@
+@media (max-width: 531px) {
+  .main-content {
+    top: 0;
+  }
+}
+
+@media (max-width: 513px) {
+  .banner-design-wrap {
+    margin-top: -20px;
+  }
+
+  .mid1 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 437px) {
+  .main-content {
+    top: 50px;
+  }
+}
+
+@media (max-width: 377px) {
+  .mid1 {
+    margin-top: 60px;
+  }
+}
